@@ -132,6 +132,9 @@ footer {
   padding: 0 60px;
   font-size: 13px;
 }
+footer p {
+  margin: 0px;
+}
 
 
 /* RESPONSIVE CSS
