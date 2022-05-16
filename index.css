@@ -21,7 +21,7 @@ body {
 }
 
 .navbar>.container .navbar-brand {
-  color: #000;
+  color: #147183;
   font-size: 18px;
   font-weight: 600;
   border-right: 1px solid #ddd;
@@ -64,22 +64,16 @@ body {
   background-position: center center;
 }
 .carousel .item > div.first-slide {
-  background-image: url('./img/carousel1.jpeg');
+  background-image: url('./img/laolishi.jpeg');
 }
 .carousel .item > div.second-slide {
-  background-image: url('./img/carousel2.jpeg');
+  background-image: url('./img/panerai.jpeg');
 }
 .carousel .item > div.third-slide {
-  background-image: url('./img/carousel3.jpeg');
+  background-image: url('./img/feili.jpeg');
 }
 .carousel .item > div.fourth-slide {
-  background-image: url('./img/carousel4.jpeg');
-}
-.carousel .item > div.fifth-slide {
-  background-image: url('./img/carousel5.jpeg');
-}
-.carousel .item > div.sixth-slide {
-  background-image: url('./img/carousel6.jpeg');
+  background-image: url('./img/kadiya.jpeg');
 }
 
 /* MARKETING CONTENT
@@ -92,8 +86,17 @@ body {
 .marketing .card {
   margin-bottom: 20px;
   border-radius: 4px;
-  border: 1px solid #e4e4e4;
   cursor: pointer;
+}
+.marketing .card:hover {
+  text-decoration: none;
+}
+.marketing .card h2 {
+  margin: 20px;
+}
+.marketing .card p {
+  margin: 20px;
+  color: #000;
 }
 .marketing .card:hover{
   transform: translateY(-20px);
@@ -131,6 +134,17 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+.introduce {
+  padding: 20px;
+  text-align: center;
+}
+.introduce h2 {
+  color: #4b767e;
+  text-align: center;
+}
+.introduce p {
+  color: rgb(33, 33, 33)
 }
 .bottom {
   display: flex;
